@@ -27,7 +27,8 @@ def get_gas_price(tx):
 
 
 def get_gas(tx):
-    gas = 1  # YOUR CODE HERE
+    transaction = get_transaction(tx)
+    gas = transaction['gas']
     return gas
 
 
