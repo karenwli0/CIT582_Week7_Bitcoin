@@ -14,7 +14,7 @@ else:
 
 
 def get_transaction(tx):
-    transaction = w3.get_transaction(tx)  # YOUR CODE HERE
+    transaction = w3.getTransaction(tx)  # YOUR CODE HERE
     return transaction
 
 
